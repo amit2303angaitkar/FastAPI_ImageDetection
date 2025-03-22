@@ -1,0 +1,13 @@
+pip install fastapi uvicorn opencv-python numpy pillow torch torchvision
+
+
+models/ → Holds AI models for classification, object detection, etc.
+services/ → Business logic for processing images.
+utils/ → Helper functions for image processing.
+tests/ → Unit tests for API endpoints.
+
+
+
+
+
+
