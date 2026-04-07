@@ -21,6 +21,8 @@ model = YOLO("yolov8s.pt")
 def home():
     return {"message": "Image API "}
 
+
+# to call the funtion hit this url - http://127.0.0.1:8000/analyze
 @app.post("/analyze")
 async def analyze_image(file: UploadFile = File(...)):
     try:
